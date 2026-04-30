@@ -6,7 +6,7 @@
   "main": "dist/server.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsc",
+    "build": "tsc && node -e \"require('fs').copyFileSync('src/raw-print.ps1','dist/raw-print.ps1')\"",
     "start": "node dist/server.js",
     "package:win": "pkg dist/server.js --targets node18-win-x64 --output bin/pizza-pia-print-bridge.exe",
     "test:print": "curl -X POST http://localhost:9100/print -H \"Content-Type: application/json\" -d @test-payload.json"
