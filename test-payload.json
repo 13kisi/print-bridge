@@ -1,0 +1,37 @@
+{
+  "order_number": 42,
+  "order_type": "dine_in",
+  "table_label": "Salon - Masa 5",
+  "table_area": "salon",
+  "general_note": "Doğum günü, mum istendi.",
+  "total": 290.0,
+  "created_at": "2026-04-30T18:42:00Z",
+  "items": [
+    {
+      "quantity": 2,
+      "product_name": "Margherita Pizza",
+      "size_label": "Büyük",
+      "item_note": "Az pişmiş olsun",
+      "customizations": [
+        { "group_label": "Hamur", "option_label": "İnce", "quantity": 1 },
+        { "group_label": "Çıkar", "option_label": "Soğan", "quantity": 1 },
+        { "group_label": "Çıkar", "option_label": "Mantar", "quantity": 1 },
+        { "group_label": "Ekle", "option_label": "Ekstra Peynir", "quantity": 2 }
+      ]
+    },
+    {
+      "quantity": 1,
+      "product_name": "Coca Cola",
+      "size_label": "330ml",
+      "item_note": null,
+      "customizations": []
+    },
+    {
+      "quantity": 1,
+      "product_name": "Cezar Salata",
+      "size_label": null,
+      "item_note": null,
+      "customizations": []
+    }
+  ]
+}
